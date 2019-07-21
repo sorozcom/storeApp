@@ -9,7 +9,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     CommonModule
   ],
   exports: [
-    HomeComponent
+    HomeComponent,
+    PageNotFoundComponent
   ]
 })
 export class GeneralModule { }
